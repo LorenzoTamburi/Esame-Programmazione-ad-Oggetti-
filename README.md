@@ -10,6 +10,7 @@ TIPO |ROTTA|DESCRIZIONE
  GET   |/squadre|Visualizza le squadre che compongo una competizione
  GET|/matchday|Visualizza le partite di una determinata stagione e giornata
  GET|/matchdate|Visualzza le partite disputate nell' arco di tempo fra due date
+ GET|/rosa|Visualizza la rosa di una squadra
  GET|/stats|
  GET|/config1|
  GET|/config2|
