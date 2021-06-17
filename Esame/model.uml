@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zus3AMyfEeulEIpBvpa_dw" name="UML">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_V2MEQMyhEeulEIpBvpa_dw" name="utente">
+    <eAnnotations xmi:id="_V2QVsMyhEeulEIpBvpa_dw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_V2Q8wMyhEeulEIpBvpa_dw" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0LB7wMyhEeulEIpBvpa_dw" name="classifica">
+    <include xmi:id="_7T9tUMyhEeulEIpBvpa_dw" addition="_6mVyUMyhEeulEIpBvpa_dw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2kUuYMyhEeulEIpBvpa_dw" memberEnd="_2k1rwMyhEeulEIpBvpa_dw _2k1rwcyhEeulEIpBvpa_dw">
+    <ownedEnd xmi:id="_2k1rwMyhEeulEIpBvpa_dw" type="_V2MEQMyhEeulEIpBvpa_dw" association="_2kUuYMyhEeulEIpBvpa_dw"/>
+    <ownedEnd xmi:id="_2k1rwcyhEeulEIpBvpa_dw" type="_0LB7wMyhEeulEIpBvpa_dw" association="_2kUuYMyhEeulEIpBvpa_dw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6mVyUMyhEeulEIpBvpa_dw" name="idComp"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_df0nIMz5EeuXJa8Anhel2w" name="Utente">
+    <eAnnotations xmi:id="_dgD3sMz5EeuXJa8Anhel2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_dgD3scz5EeuXJa8Anhel2w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gCPgkMz5EeuXJa8Anhel2w" name="Visualizza Classifica Serie A">
+    <extend xmi:id="__Ov_4Mz5EeuXJa8Anhel2w" name="inserimento parametro idComp" extendedCase="_5iFYAMz5EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_10dPsMz5EeuXJa8Anhel2w" memberEnd="_10d2wMz5EeuXJa8Anhel2w _10fr8Mz5EeuXJa8Anhel2w">
+    <ownedEnd xmi:id="_10d2wMz5EeuXJa8Anhel2w" type="_df0nIMz5EeuXJa8Anhel2w" association="_10dPsMz5EeuXJa8Anhel2w"/>
+    <ownedEnd xmi:id="_10fr8Mz5EeuXJa8Anhel2w" type="_gCPgkMz5EeuXJa8Anhel2w" association="_10dPsMz5EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_5iFYAMz5EeuXJa8Anhel2w" name="Visualizza Classifica della competizione scelta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_P5zn8Mz6EeuXJa8Anhel2w" name="Visualizza classifica marcatori Serie A ">
+    <extend xmi:id="_W2qFUMz6EeuXJa8Anhel2w" name="inserimento parametro id Comp" extendedCase="_VhKSAMz6EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TCfQIMz6EeuXJa8Anhel2w" name="A_utente_visualizza classifica marcatori Serie A " memberEnd="_TCf3MMz6EeuXJa8Anhel2w _TCgeQMz6EeuXJa8Anhel2w">
+    <ownedEnd xmi:id="_TCf3MMz6EeuXJa8Anhel2w" type="_df0nIMz5EeuXJa8Anhel2w" association="_TCfQIMz6EeuXJa8Anhel2w"/>
+    <ownedEnd xmi:id="_TCgeQMz6EeuXJa8Anhel2w" type="_P5zn8Mz6EeuXJa8Anhel2w" association="_TCfQIMz6EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VhKSAMz6EeuXJa8Anhel2w" name="Visualizza classifica marcatori della competizione scelta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fUhpgMz6EeuXJa8Anhel2w" name="Visualizza le partite della prima giornata di serie A nella stagione 2020/2021">
+    <extend xmi:id="_9iF0UMz6EeuXJa8Anhel2w" name="inserimeto parametri idComp, stagione, giornata" extendedCase="_yZ1tgMz6EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p126QMz6EeuXJa8Anhel2w" memberEnd="_p13hUMz6EeuXJa8Anhel2w _p14IYMz6EeuXJa8Anhel2w">
+    <ownedEnd xmi:id="_p13hUMz6EeuXJa8Anhel2w" type="_df0nIMz5EeuXJa8Anhel2w" association="_p126QMz6EeuXJa8Anhel2w"/>
+    <ownedEnd xmi:id="_p14IYMz6EeuXJa8Anhel2w" type="_fUhpgMz6EeuXJa8Anhel2w" association="_p126QMz6EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yZ1tgMz6EeuXJa8Anhel2w" name="Visualizza le partite della competizione scelta, nella stagione scelta, nella giornata scelta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_U8JD8Mz7EeuXJa8Anhel2w" name="Visualizza le partite della Serie A dalla data 2020-09-01 alla data 2021-07-01">
+    <extend xmi:id="_od82sMz7EeuXJa8Anhel2w" name="inserimento dei parametri idComp, stagione, dataDa, dataA" extendedCase="_n0fqAMz7EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WGk2wMz7EeuXJa8Anhel2w" memberEnd="_WGk2wcz7EeuXJa8Anhel2w _WGld0Mz7EeuXJa8Anhel2w">
+    <ownedEnd xmi:id="_WGk2wcz7EeuXJa8Anhel2w" type="_df0nIMz5EeuXJa8Anhel2w" association="_WGk2wMz7EeuXJa8Anhel2w"/>
+    <ownedEnd xmi:id="_WGld0Mz7EeuXJa8Anhel2w" type="_U8JD8Mz7EeuXJa8Anhel2w" association="_WGk2wMz7EeuXJa8Anhel2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_n0fqAMz7EeuXJa8Anhel2w" name="Visualizza le partite della competizione scelta nell'arco delle due date scelte"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_S8WuwM0BEeuXJa8Anhel2w" name="CiampichettiTamburiTaras.OOPProject">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Te7a4M0CEeuXJa8Anhel2w" name="Controller">
+      <packageImport xmi:id="_dJfw0M0EEeuXJa8Anhel2w">
+        <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+      </packageImport>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ve-AAM0CEeuXJa8Anhel2w" name="Controller" visibility="public">
+        <ownedOperation xmi:id="_EmkDAM0DEeuXJa8Anhel2w" name="GetComp">
+          <ownedParameter xmi:id="_Nq_mAM0FEeuXJa8Anhel2w" name="idComp"/>
+          <ownedParameter xmi:id="_OGqOUM0FEeuXJa8Anhel2w" name="tipoClassifica"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_bRI9gM0DEeuXJa8Anhel2w" name="getClassMarcatori">
+          <ownedParameter xmi:id="_eoIHcM0DEeuXJa8Anhel2w" name="idComp"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_j8lqsM0DEeuXJa8Anhel2w" name="getSquadre">
+          <ownedParameter xmi:id="_objwYM0DEeuXJa8Anhel2w" name="idComp"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_wdYRwM0DEeuXJa8Anhel2w" name="GetMatchday">
+          <ownedParameter xmi:id="_kUjx4M0bEeuXJa8Anhel2w" name="idComp"/>
+          <ownedParameter xmi:id="_koCukM0bEeuXJa8Anhel2w" name="stagione"/>
+          <ownedParameter xmi:id="_k5DmEM0bEeuXJa8Anhel2w" name="giornata"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Da_eYM0cEeuXJa8Anhel2w" name="GetMatchdate">
+          <ownedParameter xmi:id="_FejRkM0cEeuXJa8Anhel2w" name="idComp"/>
+          <ownedParameter xmi:id="_F15akM0cEeuXJa8Anhel2w" name="dataDA"/>
+          <ownedParameter xmi:id="_GGpzYM0cEeuXJa8Anhel2w" name="DataA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_QjkmYM9aEeuODK-1__WcYw" name="getStatsArea"/>
+        <ownedOperation xmi:id="_XgcR4M9aEeuODK-1__WcYw" name="createConfig1"/>
+        <ownedOperation xmi:id="_X45OIM9aEeuODK-1__WcYw" name="createConfig2"/>
+        <ownedOperation xmi:id="_eLM5sM9aEeuODK-1__WcYw" name="filter">
+          <ownedParameter xmi:id="_f0LpsM9aEeuODK-1__WcYw" name="filterType">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_gH8TMM9aEeuODK-1__WcYw" name="body">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_htK0sM0iEeuXJa8Anhel2w" name="Model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_B2YFMM3FEeufcMMjHj34xg" name="Classifica" visibility="public">
+        <ownedAttribute xmi:id="_coNZ4M3OEeufcMMjHj34xg" name="nomeLega" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_csuGcM3OEeufcMMjHj34xg" name="posizione" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_cwkEoM3OEeufcMMjHj34xg" name="nomeSquadra" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_czmKgM3OEeufcMMjHj34xg" name="partiteGiocate" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_c2iw0M3OEeufcMMjHj34xg" name="punti" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_c5D5UM3OEeufcMMjHj34xg" name="golFatti">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_c7JkAM3OEeufcMMjHj34xg" name="golSubiti" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dEAlEM3OEeufcMMjHj34xg" name="differenzaReti" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_LwmMcM3iEeufcMMjHj34xg" name="tipoClassifica" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mq-KAM3iEeufcMMjHj34xg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_Rk8wsM3iEeufcMMjHj34xg" name="Classifica"/>
+        <ownedOperation xmi:id="_VnyUAM3iEeufcMMjHj34xg" name="Classifica">
+          <ownedParameter xmi:id="_XNSSMM3iEeufcMMjHj34xg" name="nomeLega">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XoMFgM3iEeufcMMjHj34xg" name="posizione">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XzvOMM3iEeufcMMjHj34xg" name="nomeSquadra">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_X732gM3iEeufcMMjHj34xg" name="partiteGiocate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_o5mi8M3iEeufcMMjHj34xg" name="punti">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pLXoYM3iEeufcMMjHj34xg" name="golFatti">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pb9CEM3iEeufcMMjHj34xg" name="golSubiti">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sjqZ4M3iEeufcMMjHj34xg" name="differenzaReti">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2-mHsM3iEeufcMMjHj34xg" name="tipoClassifica">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DWWDIM3FEeufcMMjHj34xg" name="ClassificaMarcatori" visibility="public">
+        <ownedAttribute xmi:id="_2eJIAM3MEeufcMMjHj34xg" name="squadre" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2huAcM3MEeufcMMjHj34xg" name="marcatori" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2lK9EM3MEeufcMMjHj34xg" name="numeroGol" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_LRR_wM3NEeufcMMjHj34xg" name="getSquadre"/>
+        <ownedOperation xmi:id="_LiqqsM3NEeufcMMjHj34xg" name="setSquadre">
+          <ownedParameter xmi:id="_Reg-EM3NEeufcMMjHj34xg" name="squadre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LyFmwM3NEeufcMMjHj34xg" name="getMarcatori"/>
+        <ownedOperation xmi:id="_L8VH4M3NEeufcMMjHj34xg" name="setMarcatori">
+          <ownedParameter xmi:id="_YS2YoM3NEeufcMMjHj34xg" name="marcatori">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MC8GMM3NEeufcMMjHj34xg" name="getNumeroGol"/>
+        <ownedOperation xmi:id="_MImCQM3NEeufcMMjHj34xg" name="setNumeroGol">
+          <ownedParameter xmi:id="_xZlzkM3NEeufcMMjHj34xg" name="numeroGol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_E5JSoM3FEeufcMMjHj34xg" name="Lega" visibility="public">
+        <ownedAttribute xmi:id="_jDnGIM3FEeufcMMjHj34xg" name="idLega" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jIC6MM3FEeufcMMjHj34xg" name="nomeLega" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jL4RUM3FEeufcMMjHj34xg" name="nomeArea" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jPPHUM3FEeufcMMjHj34xg" name="idArea" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jSoZkM3FEeufcMMjHj34xg" name="lunghezzaCampionato" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jVJiEM3FEeufcMMjHj34xg" name="numeroStagioniDisponibili" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_lHEgwM3HEeufcMMjHj34xg" name="tier" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_vRwzIM3HEeufcMMjHj34xg" name="ClassificaSquadre" visibility="private"/>
+        <ownedOperation xmi:id="_NRf9UM3IEeufcMMjHj34xg" name="Lega">
+          <ownedParameter xmi:id="_O1mNUM3IEeufcMMjHj34xg" name="idLega">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PFuUAM3IEeufcMMjHj34xg" name="nomeArea">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PT22oM3IEeufcMMjHj34xg" name="idArea">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Pj8hEM3IEeufcMMjHj34xg" name="lunghezzaCampionato">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_fdIAQM3IEeufcMMjHj34xg" name="numeroStagioniDisponibili">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_kud-EM3IEeufcMMjHj34xg" name="tier">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_o18JwM3IEeufcMMjHj34xg" name="classificaSquadre"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4uScYM-SEeuODK-1__WcYw" name="Rosa" visibility="public">
+        <ownedAttribute xmi:id="_qcFIwM-XEeuODK-1__WcYw" name="nome" visibility="private"/>
+        <ownedAttribute xmi:id="_qpzbsM-XEeuODK-1__WcYw" name="nazionalità" visibility="private"/>
+        <ownedAttribute xmi:id="_qxKA4M-XEeuODK-1__WcYw" name="ruolo" visibility="private"/>
+        <ownedOperation xmi:id="_rgGKgM-XEeuODK-1__WcYw" name="getNome"/>
+        <ownedOperation xmi:id="_rwJYsM-XEeuODK-1__WcYw" name="setNome">
+          <ownedParameter xmi:id="_7UDygM-XEeuODK-1__WcYw" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_r1vqYM-XEeuODK-1__WcYw" name="getNazionalità"/>
+        <ownedOperation xmi:id="_sJj-QM-XEeuODK-1__WcYw" name="setNazionalità">
+          <ownedParameter xmi:id="_DXFNwM-YEeuODK-1__WcYw" name="nazionalità">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sWyh8M-XEeuODK-1__WcYw" name="getRuolo"/>
+        <ownedOperation xmi:id="_tC8dUM-XEeuODK-1__WcYw" name="setRuolo">
+          <ownedParameter xmi:id="_PwZT0M-YEeuODK-1__WcYw" name="ruolo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6Iiz4M-SEeuODK-1__WcYw" name="Squadre" visibility="public">
+        <ownedAttribute xmi:id="_cC0uwM-YEeuODK-1__WcYw" name="idSquadra" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_cJ_GsM-YEeuODK-1__WcYw" name="nomeCortoSquadra" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_celdsM-YEeuODK-1__WcYw" name="numSquadre" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_aef1QM-YEeuODK-1__WcYw" name="getIdSquadra"/>
+        <ownedOperation xmi:id="_QAo50M-ZEeuODK-1__WcYw" name="setIdSquadra">
+          <ownedParameter xmi:id="_S-LB8M-ZEeuODK-1__WcYw" name="idSquadra">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_QXvyQM-ZEeuODK-1__WcYw" name="getNomeCortoSquadra"/>
+        <ownedOperation xmi:id="_QnCygM-ZEeuODK-1__WcYw" name="setNomeCortoSquadra">
+          <ownedParameter xmi:id="_bkNDoM-ZEeuODK-1__WcYw" name="nomeCortoSquadra">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_R1z6cM-TEeuODK-1__WcYw" name="Date" visibility="public">
+        <ownedAttribute xmi:id="_TVBDYM-TEeuODK-1__WcYw" name="punteggiCasa" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_TscE4M-TEeuODK-1__WcYw" name="punteggiOspite" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_T3uH0M-TEeuODK-1__WcYw" name="SquadraCasa" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jq5FoM-TEeuODK-1__WcYw" name="squadraOspite" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_tH-EEM-TEeuODK-1__WcYw" name="dataPartita" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_29ohoM-TEeuODK-1__WcYw" name="getPunteggiCasa" visibility="public"/>
+        <ownedOperation xmi:id="_3YM9wM-TEeuODK-1__WcYw" name="setPunteggioCasa">
+          <ownedParameter xmi:id="_CXLz0M-UEeuODK-1__WcYw" name="punteggioCasa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3z1J0M-TEeuODK-1__WcYw" name="getPunteggioOspite"/>
+        <ownedOperation xmi:id="_4PRIoM-TEeuODK-1__WcYw" name="setPunteggioOspite">
+          <ownedParameter xmi:id="_6nsjIM-UEeuODK-1__WcYw" name="punteggioOspite">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_GKreIM-VEeuODK-1__WcYw" name="getSquadraOspite"/>
+        <ownedOperation xmi:id="_GmHc8M-VEeuODK-1__WcYw" name="setSquadraOspite">
+          <ownedParameter xmi:id="_aQ_FEM-VEeuODK-1__WcYw" name="squadraOspite">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_j3ba4M-VEeuODK-1__WcYw" name="setDataPartita">
+          <ownedParameter xmi:id="_pX1IYM-VEeuODK-1__WcYw" name="dataPartita">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_wg-VUM-VEeuODK-1__WcYw" name="getDataPartita"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_a4EdwM-WEeuODK-1__WcYw" name="Matchday" visibility="public">
+        <ownedAttribute xmi:id="_f0xoUM-WEeuODK-1__WcYw" name="punteggioCasa"/>
+        <ownedAttribute xmi:id="_f7LLQM-WEeuODK-1__WcYw" name="punteggioOspite" visibility="private"/>
+        <ownedAttribute xmi:id="_f_H3IM-WEeuODK-1__WcYw" name="squadraCasa" visibility="private"/>
+        <ownedAttribute xmi:id="_gBywoM-WEeuODK-1__WcYw" name="squadraOspite" visibility="private"/>
+        <ownedOperation xmi:id="_xJaY4M-WEeuODK-1__WcYw" name="setPunteggioCasa">
+          <ownedParameter xmi:id="_4GkYQM-WEeuODK-1__WcYw" name="punteggioCasa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_xdOFsM-WEeuODK-1__WcYw" name="getPunteggioCasa"/>
+        <ownedOperation xmi:id="_xmgkkM-WEeuODK-1__WcYw" name="getPunteggioOspite"/>
+        <ownedOperation xmi:id="_xvAZQM-WEeuODK-1__WcYw" name="setPunteggioOspite">
+          <ownedParameter xmi:id="_KFYHMM-XEeuODK-1__WcYw" name="punteggioOspite">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_x2lA4M-WEeuODK-1__WcYw" name="getSquadraCasa"/>
+        <ownedOperation xmi:id="_yLHGcM-WEeuODK-1__WcYw" name="setSquadraCasa">
+          <ownedParameter xmi:id="_aeg40M-XEeuODK-1__WcYw" name="squadraCasa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_exyr4M-XEeuODK-1__WcYw" name="getSquadraOspite"/>
+        <ownedOperation xmi:id="_fMFbMM-XEeuODK-1__WcYw" name="setSquadraOspite">
+          <ownedParameter xmi:id="_if58YM-XEeuODK-1__WcYw" name="squadraOspite">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_G3kHIM3FEeufcMMjHj34xg" name="Model.Data">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Mwd0MM3FEeufcMMjHj34xg" name="ChiamataSquadre" visibility="public">
+        <ownedAttribute xmi:id="_MPIOUM9dEeuODK-1__WcYw" name="idSquadra" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MTo64M9dEeuODK-1__WcYw" name="nomecortoSqudra" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_NZ-Q0M9dEeuODK-1__WcYw" name="numSquadre" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Nc8sUM9dEeuODK-1__WcYw" name="idCompetizione" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_O1Ye4M9dEeuODK-1__WcYw" name="getNumSquadre"/>
+        <ownedOperation xmi:id="_mLTccM9dEeuODK-1__WcYw" name="ChiamataSquadre"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PF6ooM3FEeufcMMjHj34xg" name="ClassificaApi" visibility="public">
+        <ownedAttribute xmi:id="_OLtvcM9gEeuODK-1__WcYw" name="nomeLega" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ORau0M9gEeuODK-1__WcYw" name="classificaFromApi" visibility="private"/>
+        <ownedOperation xmi:id="_O0ltUM9gEeuODK-1__WcYw" name="ClassificaApi">
+          <ownedParameter xmi:id="_mllV8M9jEeuODK-1__WcYw" name="idCompetizione">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_m4BJwM9jEeuODK-1__WcYw" name="tipoClassifica">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SuPaMM3FEeufcMMjHj34xg" name="ClassificaMarcatoriApi" visibility="public">
+        <ownedAttribute xmi:id="_DKdEoM9kEeuODK-1__WcYw" name="marcatori" visibility="private"/>
+        <ownedAttribute xmi:id="_DP9PsM9kEeuODK-1__WcYw" name="squadre" visibility="private"/>
+        <ownedAttribute xmi:id="_DUE6sM9kEeuODK-1__WcYw" name="numeroGol" visibility="private"/>
+        <ownedAttribute xmi:id="_DXhQQM9kEeuODK-1__WcYw" name="idCompetizone" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_W0PusM9kEeuODK-1__WcYw" name="ClassificaMarcatoriApi"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_XUVbkM3FEeufcMMjHj34xg" name="LegheApi" visibility="public"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ac6WEM3FEeufcMMjHj34xg" name="WriteSquadFile" visibility="public"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_zqa-4M9bEeuODK-1__WcYw" name="ApiDate" visibility="public">
+        <ownedAttribute xmi:id="_iSz9YM9cEeuODK-1__WcYw" name="punteggioCasa" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ihst8M9cEeuODK-1__WcYw" name="punteggioOspite" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ipKA0M9cEeuODK-1__WcYw" name="squadraOspite" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ivyNQM9cEeuODK-1__WcYw" name="idCompetizione" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_i0590M9cEeuODK-1__WcYw" name="dataPartita" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_i6Gm4M9cEeuODK-1__WcYw" name="season" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_75ZWAM9cEeuODK-1__WcYw" name="dateFrom" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8BXmQM9cEeuODK-1__WcYw" name="dateTo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_9a1JAM9bEeuODK-1__WcYw" name="ApiDate">
+          <ownedParameter xmi:id="_BZbFgM9cEeuODK-1__WcYw" name="idComp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Bqb9AM9cEeuODK-1__WcYw" name="season">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_B5aNIM9cEeuODK-1__WcYw" name="dateFrom">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_QVqbUM9cEeuODK-1__WcYw" name="dateTo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wKykYM9dEeuODK-1__WcYw" name="ApiMatchday" visibility="public">
+        <ownedAttribute xmi:id="_zopLUM9dEeuODK-1__WcYw" name="punteggioCasa" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z0ZvYM9dEeuODK-1__WcYw" name="punteggioOspite" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5lKUM9dEeuODK-1__WcYw" name="squadraCasa" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z8U8UM9dEeuODK-1__WcYw" name="squadraOspite" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z-zBgM9dEeuODK-1__WcYw" name="idCompetizione" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_0TzywM9eEeuODK-1__WcYw" name="season" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6S3LIM9eEeuODK-1__WcYw" name="matchday" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_yyQV4M9dEeuODK-1__WcYw" name="ApiMatchday">
+          <ownedParameter xmi:id="_Sj9XgM9fEeuODK-1__WcYw" name="idCompetizione">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Sy6ZgM9fEeuODK-1__WcYw" name="season">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_THHu8M9fEeuODK-1__WcYw" name="matchday">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xfzYEM90EeuODK-1__WcYw" name="CompetitionsApi" visibility="public">
+        <ownedOperation xmi:id="_z9uzEM90EeuODK-1__WcYw" name="CompetitionsApi"/>
+        <ownedOperation xmi:id="_259ToM90EeuODK-1__WcYw" name="getAllCompetitions"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xVZvoM9YEeuODK-1__WcYw" name="OOPProjectApplication.java" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b_gNcM92EeuODK-1__WcYw" name="Class2" visibility="public"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iG-iAM92EeuODK-1__WcYw" name="Utils">
+      <packagedElement xmi:type="uml:Class" xmi:id="_kVGmcM92EeuODK-1__WcYw" name="Stats" visibility="public">
+        <ownedAttribute xmi:id="_pyifgM92EeuODK-1__WcYw" name="totAreas" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_qj6SEM92EeuODK-1__WcYw" name="totAreas"/>
+        <ownedOperation xmi:id="_q5e5cM92EeuODK-1__WcYw" name="MaxMinAveSquads"/>
+        <ownedOperation xmi:id="__vlloM92EeuODK-1__WcYw" name="AreaStats"/>
+        <ownedOperation xmi:id="_C4XUcM93EeuODK-1__WcYw" name="aveDuration"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MiCkcM93EeuODK-1__WcYw" name="WriteConfigFile" visibility="public">
+        <ownedAttribute xmi:id="_P7yugM93EeuODK-1__WcYw" name="idLegheAmmesse" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_QDt7cM93EeuODK-1__WcYw" name="idLegheAmmesse2" visibility="private"/>
+        <ownedAttribute xmi:id="_QJSX8M93EeuODK-1__WcYw" name="confArray" visibility="private"/>
+        <ownedAttribute xmi:id="_QPTgYM93EeuODK-1__WcYw" name="compObj" visibility="private"/>
+        <ownedAttribute xmi:id="_QU7nQM93EeuODK-1__WcYw" name="squadsArray" visibility="private"/>
+        <ownedAttribute xmi:id="_QZ6N4M93EeuODK-1__WcYw" name="nameId" visibility="private"/>
+        <ownedOperation xmi:id="_jMYOYM93EeuODK-1__WcYw" name="writeConfigFile"/>
+        <ownedOperation xmi:id="_neqi8M93EeuODK-1__WcYw" name="writeJSONconfig1"/>
+        <ownedOperation xmi:id="_sOr8YM93EeuODK-1__WcYw" name="writeJSONConfig2"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5ZWm4M93EeuODK-1__WcYw" name="Tests.java" visibility="public">
+      <ownedOperation xmi:id="_CACv4M94EeuODK-1__WcYw" name="OopProjectApplicationTests"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_zFR5YM96EeuODK-1__WcYw" name="Exceptions"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WAwvYM98EeuODK-1__WcYw" name="Exceptions">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aY070M98EeuODK-1__WcYw" name="noConfigFoundException" visibility="public">
+        <ownedAttribute xmi:id="_j7vcgM98EeuODK-1__WcYw" name="errMsg">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_i885AM98EeuODK-1__WcYw" name="noConfigFoundException">
+          <ownedParameter xmi:id="_rHHeEM98EeuODK-1__WcYw" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jWG_4M98EeuODK-1__WcYw" name="getErrMsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4-JfUM98EeuODK-1__WcYw" name="WrongFilterException" visibility="public">
+        <ownedAttribute xmi:id="_6CBXIM98EeuODK-1__WcYw" name="errMsg">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_7qIkcM98EeuODK-1__WcYw" name="WrongFilterException">
+          <ownedParameter xmi:id="_A4-n4M99EeuODK-1__WcYw" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8BJWQM98EeuODK-1__WcYw" name="getErrMsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KUdD0M99EeuODK-1__WcYw" name="rongFilterValueException" visibility="public">
+        <ownedOperation xmi:id="_Nu38QM99EeuODK-1__WcYw" name="WrongFilterValueException">
+          <ownedParameter xmi:id="_Q9gbcM99EeuODK-1__WcYw" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_O4B8sM99EeuODK-1__WcYw" name="getErrMsg"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_kBVPsM0iEeuXJa8Anhel2w" name="Data">
+    <packagedElement xmi:type="uml:Class" xmi:id="_qGM8MM0iEeuXJa8Anhel2w" name="ApiDate" visibility="public">
+      <ownedAttribute xmi:id="_YNW8QM0rEeuXJa8Anhel2w"/>
+      <ownedAttribute xmi:id="_YQ70sM0rEeuXJa8Anhel2w"/>
+      <ownedAttribute xmi:id="_YTSlIM0rEeuXJa8Anhel2w"/>
+      <ownedAttribute xmi:id="_YV9eoM0rEeuXJa8Anhel2w"/>
+      <ownedAttribute xmi:id="_YXVXoM0rEeuXJa8Anhel2w"/>
+      <ownedAttribute xmi:id="_YZALkM0rEeuXJa8Anhel2w"/>
+      <ownedOperation xmi:id="_A5VVwM0jEeuXJa8Anhel2w" name="" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GaVDsM0kEeuXJa8Anhel2w" name="ClassificaApi" visibility="public">
+      <ownedAttribute xmi:id="_t2vjsM0kEeuXJa8Anhel2w" name="posizione" visibility="private"/>
+      <ownedAttribute xmi:id="_t_6t0M0kEeuXJa8Anhel2w" name="nomeSquadra" visibility="private"/>
+      <ownedAttribute xmi:id="_uFOEkM0kEeuXJa8Anhel2w" name="partiteGiocate" visibility="private"/>
+      <ownedAttribute xmi:id="_uJuKEM0kEeuXJa8Anhel2w" name="punti"/>
+      <ownedAttribute xmi:id="_uNa-UM0kEeuXJa8Anhel2w" name="golFatti" visibility="private"/>
+      <ownedAttribute xmi:id="_Br-BsM0lEeuXJa8Anhel2w" name="golSubiti" visibility="private">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C-RXEM0lEeuXJa8Anhel2w" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Bz2LUM0lEeuXJa8Anhel2w" name="differenzaReti"/>
+      <ownedAttribute xmi:id="_y1s7kM0lEeuXJa8Anhel2w" name="idComp" visibility="private">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0zyY4M0lEeuXJa8Anhel2w" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0GAF0M0lEeuXJa8Anhel2w" name="tipoClassifica" visibility="private"/>
+      <ownedOperation xmi:id="_jVBRYM0kEeuXJa8Anhel2w" name="ClassificaApi">
+        <ownedParameter xmi:id="_lD8RUM0kEeuXJa8Anhel2w" name="idComp"/>
+        <ownedParameter xmi:id="_lXp3gM0kEeuXJa8Anhel2w" name="tipoClassifica"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GIv5kM0mEeuXJa8Anhel2w" name="ClassificaMarcatoriApi" visibility="public">
+      <ownedAttribute xmi:id="_7olRAM0mEeuXJa8Anhel2w" name="marcatori" visibility="private"/>
+      <ownedAttribute xmi:id="_7uK7oM0mEeuXJa8Anhel2w" name="squadre" visibility="private"/>
+      <ownedAttribute xmi:id="_7zVIcM0mEeuXJa8Anhel2w" name="numeroGol" visibility="private"/>
+      <ownedAttribute xmi:id="_K44LQM0nEeuXJa8Anhel2w" name="idComp" visibility="private"/>
+      <ownedOperation xmi:id="_TeqVUM0nEeuXJa8Anhel2w" name="ClassificaMarcatoriApi" visibility="private">
+        <ownedParameter xmi:id="_W-J7AM0nEeuXJa8Anhel2w" name="idCompetizione" visibility="private"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YzezAM0pEeuXJa8Anhel2w" name="ChiamataSquadre" visibility="public">
+      <ownedAttribute xmi:id="_hP93IM0pEeuXJa8Anhel2w" name="nomeCortoSquadra" visibility="private"/>
+      <ownedAttribute xmi:id="_hVOxoM0pEeuXJa8Anhel2w" name="idSquadra" visibility="private"/>
+      <ownedAttribute xmi:id="_hZowgM0pEeuXJa8Anhel2w" name="idCompetizione" visibility="private"/>
+      <ownedOperation xmi:id="_PFspoM0qEeuXJa8Anhel2w" name="ChiamataSquadre">
+        <ownedParameter xmi:id="_Tlo_sM0qEeuXJa8Anhel2w" name="idCompetizione"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kAGnAM0qEeuXJa8Anhel2w" name="ApiMatchdDay" visibility="public">
+      <ownedAttribute xmi:id="_mc0hEM0qEeuXJa8Anhel2w" name="punteggioCasa">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ufO4UM0qEeuXJa8Anhel2w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ufPfYM0qEeuXJa8Anhel2w" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pCVKwM0qEeuXJa8Anhel2w" name="punteggioOspite" visibility="private"/>
+      <ownedAttribute xmi:id="_pINJQM0qEeuXJa8Anhel2w" name="squadraCasa" visibility="private"/>
+      <ownedAttribute xmi:id="_pNtUUM0qEeuXJa8Anhel2w" name="squadraOspite" visibility="private"/>
+      <ownedAttribute xmi:id="_pVGVwM0qEeuXJa8Anhel2w" name="idCompetizione" visibility="private"/>
+      <ownedAttribute xmi:id="_pbgfwM0qEeuXJa8Anhel2w" name="season" visibility="private"/>
+      <ownedAttribute xmi:id="_ph1xQM0qEeuXJa8Anhel2w" name="matchDay"/>
+      <ownedOperation xmi:id="_qLnuEM0qEeuXJa8Anhel2w" name="ApiMatchDay"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3yI3AM0-EeuXJa8Anhel2w" name="ApiDate" visibility="public">
+      <ownedAttribute xmi:id="_OT0UMM0_EeuXJa8Anhel2w" name="punteggioCasa" visibility="private"/>
+      <ownedAttribute xmi:id="_rvDqMM0_EeuXJa8Anhel2w" name="punteggioOspite" visibility="private"/>
+      <ownedAttribute xmi:id="_t_A6oM0_EeuXJa8Anhel2w" name="squadraCasa" visibility="private"/>
+      <ownedAttribute xmi:id="_whgFgM0_EeuXJa8Anhel2w" name="squadraOspite" visibility="private"/>
+      <ownedAttribute xmi:id="___bzIM0_EeuXJa8Anhel2w" name="dataPartita" visibility="private"/>
+      <ownedAttribute xmi:id="_C6nx4M1AEeuXJa8Anhel2w" name="idCompetizione" visibility="private"/>
+      <ownedAttribute xmi:id="_G-9xEM1AEeuXJa8Anhel2w" name="season" visibility="private"/>
+      <ownedAttribute xmi:id="_JIOjoM1AEeuXJa8Anhel2w" name="dateFrom" visibility="private"/>
+      <ownedAttribute xmi:id="_MGGqAM1AEeuXJa8Anhel2w" name="dateTo" visibility="private"/>
+      <ownedOperation xmi:id="_RcTIEM0_EeuXJa8Anhel2w" name="ApiDate">
+        <ownedParameter xmi:id="_TKRFwM0_EeuXJa8Anhel2w" name="idCompetizione"/>
+        <ownedParameter xmi:id="_VQS-IM0_EeuXJa8Anhel2w" name="season"/>
+        <ownedParameter xmi:id="_XEe4kM0_EeuXJa8Anhel2w" name="dateFrom"/>
+        <ownedParameter xmi:id="_X_5_AM0_EeuXJa8Anhel2w" name="dateTo"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NNgu0M3AEeufcMMjHj34xg" name="WriteSquadApi" visibility="public">
+      <ownedAttribute xmi:id="_cLPSYM3AEeufcMMjHj34xg" name="idLegheAmmesse"/>
+      <ownedAttribute xmi:id="_ctnmsM3AEeufcMMjHj34xg"/>
+      <ownedAttribute xmi:id="_cyrF0M3AEeufcMMjHj34xg"/>
+      <ownedAttribute xmi:id="_c3U8UM3AEeufcMMjHj34xg"/>
+      <ownedAttribute xmi:id="_c70awM3AEeufcMMjHj34xg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rii-IM3BEeufcMMjHj34xg" name="WriteSquadFile" visibility="public">
+      <ownedAttribute xmi:id="_vFmOIM3BEeufcMMjHj34xg" name="idLegheAmmesse"/>
+      <ownedAttribute xmi:id="_IJg-kM3CEeufcMMjHj34xg" name="confArray" visibility="private"/>
+      <ownedAttribute xmi:id="_IOtnoM3CEeufcMMjHj34xg" name="compObj" visibility="private"/>
+      <ownedAttribute xmi:id="_ISnQMM3CEeufcMMjHj34xg" name="squadsArray" visibility="private"/>
+      <ownedAttribute xmi:id="_IWWgsM3CEeufcMMjHj34xg" name="squadNameID" visibility="private"/>
+      <ownedOperation xmi:id="_cP5eAM3CEeufcMMjHj34xg" name="writeSquadFile"/>
+      <ownedOperation xmi:id="_ezgqQM3CEeufcMMjHj34xg" name="writeJSONconfig"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8_e5oM3CEeufcMMjHj34xg" name="LegheApi" visibility="public">
+      <ownedOperation xmi:id="__k4OkM3CEeufcMMjHj34xg" name="LegheApi"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JM5-MM-DEeuODK-1__WcYw" name="Visualizza squadre della Serie A">
+    <extend xmi:id="_fyuUgM-DEeuODK-1__WcYw" name="inserimento parametro idComp" extendedCase="_dzfnsM-DEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dzfnsM-DEeuODK-1__WcYw" name="Visualizza squadre del campionato scelto"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_p9pa8M-EEeuODK-1__WcYw" name="UML"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_F6Be4M-IEeuODK-1__WcYw" memberEnd="_F6CtAM-IEeuODK-1__WcYw _F6DUEM-IEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_F6CtAM-IEeuODK-1__WcYw" type="_df0nIMz5EeuXJa8Anhel2w" association="_F6Be4M-IEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_F6DUEM-IEeuODK-1__WcYw" type="_JM5-MM-DEeuODK-1__WcYw" association="_F6Be4M-IEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IIStQM-IEeuODK-1__WcYw" name="Visualizza Rosa Milan">
+    <extend xmi:id="_iFSawM-IEeuODK-1__WcYw" extendedCase="_arPrEM-IEeuODK-1__WcYw"/>
+    <extend xmi:id="_vfkOkM-IEeuODK-1__WcYw" extendedCase="_oTJEIM-IEeuODK-1__WcYw"/>
+    <extend xmi:id="_wQQrsM-IEeuODK-1__WcYw" name="inserimento parametro idSquadra" extendedCase="_qr3PAM-IEeuODK-1__WcYw"/>
+    <extend xmi:id="_xJlgYM-IEeuODK-1__WcYw" extendedCase="_s-pJ8M-IEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JoAMgM-IEeuODK-1__WcYw" memberEnd="_JoAzkM-IEeuODK-1__WcYw _JoBaoM-IEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_JoAzkM-IEeuODK-1__WcYw" type="_df0nIMz5EeuXJa8Anhel2w" association="_JoAMgM-IEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_JoBaoM-IEeuODK-1__WcYw" type="_IIStQM-IEeuODK-1__WcYw" association="_JoAMgM-IEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_arPrEM-IEeuODK-1__WcYw" name="UseCase14"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oTJEIM-IEeuODK-1__WcYw" name="UseCase15"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qr3PAM-IEeuODK-1__WcYw" name="Visualizza la rosa di una squadra a scelta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_s-pJ8M-IEeuODK-1__WcYw" name="UseCase17"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qrU8IM-LEeuODK-1__WcYw" name="Actor3">
+    <eAnnotations xmi:id="_qrVjMM-LEeuODK-1__WcYw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_qrWKQM-LEeuODK-1__WcYw" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_s_pvMM-LEeuODK-1__WcYw" memberEnd="_s_pvMc-LEeuODK-1__WcYw _s_pvMs-LEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_s_pvMc-LEeuODK-1__WcYw" type="_gCPgkMz5EeuXJa8Anhel2w" association="_s_pvMM-LEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_s_pvMs-LEeuODK-1__WcYw" type="_qrU8IM-LEeuODK-1__WcYw" association="_s_pvMM-LEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t_qasM-LEeuODK-1__WcYw" memberEnd="_t_rBwM-LEeuODK-1__WcYw _t_ro0M-LEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_t_rBwM-LEeuODK-1__WcYw" type="_P5zn8Mz6EeuXJa8Anhel2w" association="_t_qasM-LEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_t_ro0M-LEeuODK-1__WcYw" type="_qrU8IM-LEeuODK-1__WcYw" association="_t_qasM-LEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u9LL0M-LEeuODK-1__WcYw" memberEnd="_u9Ly4M-LEeuODK-1__WcYw _u9Ly4c-LEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_u9Ly4M-LEeuODK-1__WcYw" type="_fUhpgMz6EeuXJa8Anhel2w" association="_u9LL0M-LEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_u9Ly4c-LEeuODK-1__WcYw" type="_qrU8IM-LEeuODK-1__WcYw" association="_u9LL0M-LEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vo5pYM-LEeuODK-1__WcYw" memberEnd="_vo6QcM-LEeuODK-1__WcYw _vo6Qcc-LEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_vo6QcM-LEeuODK-1__WcYw" type="_U8JD8Mz7EeuXJa8Anhel2w" association="_vo5pYM-LEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_vo6Qcc-LEeuODK-1__WcYw" type="_qrU8IM-LEeuODK-1__WcYw" association="_vo5pYM-LEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wkRFcM-LEeuODK-1__WcYw" memberEnd="_wkRFcc-LEeuODK-1__WcYw _wkRFcs-LEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_wkRFcc-LEeuODK-1__WcYw" type="_JM5-MM-DEeuODK-1__WcYw" association="_wkRFcM-LEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_wkRFcs-LEeuODK-1__WcYw" type="_qrU8IM-LEeuODK-1__WcYw" association="_wkRFcM-LEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xTcfoM-LEeuODK-1__WcYw" memberEnd="_xTdGsM-LEeuODK-1__WcYw _xTeU0M-LEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_xTdGsM-LEeuODK-1__WcYw" type="_IIStQM-IEeuODK-1__WcYw" association="_xTcfoM-LEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_xTeU0M-LEeuODK-1__WcYw" type="_qrU8IM-LEeuODK-1__WcYw" association="_xTcfoM-LEeuODK-1__WcYw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_BYB9kM-MEeuODK-1__WcYw" name="UseCase18"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CYgjIM-MEeuODK-1__WcYw" memberEnd="_CYgjIc-MEeuODK-1__WcYw _CYgjIs-MEeuODK-1__WcYw">
+    <ownedEnd xmi:id="_CYgjIc-MEeuODK-1__WcYw" type="_qrU8IM-LEeuODK-1__WcYw" association="_CYgjIM-MEeuODK-1__WcYw"/>
+    <ownedEnd xmi:id="_CYgjIs-MEeuODK-1__WcYw" type="_BYB9kM-MEeuODK-1__WcYw" association="_CYgjIM-MEeuODK-1__WcYw"/>
+  </packagedElement>
+</uml:Model>
