@@ -24,15 +24,11 @@ TIPO |ROTTA|DESCRIZIONE
  CiampichettiTamburiTaras.OOPProject | |
  Controller | Controller
  Exceptions | 
- Model | Classifica;
-        ClassificaMarcatori;|
- Data | ApiDate;
-Matchdate;
-Matchday;
-ApiRosa;
-ChiamataSquadre;
-ClassificaApi;|
-Utils| |
+ Model | Classifica; <br>ClassificaMarcatori; <br>Matchdate; <br>Matchday; <br>ApiRosa;|
+ Data | ApiDate; <br>ApiMatchday; <br>ApiRosa; <br>ChiamataSquadre; <br>ClassificaApi; <br>ClassificaMarcatoriApi; <br>ChiamataSquadre;<br>ClassificaApi;|
+Utils|Stats; <br>writeConfigFile;|
+senzaPackage |OOPProjectApplicationTests.java|
+
 
 
  
