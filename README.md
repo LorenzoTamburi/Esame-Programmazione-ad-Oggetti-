@@ -14,10 +14,7 @@ TIPO |ROTTA|DESCRIZIONE
  GET|/stats|
  GET|/config1|
  GET|/config2|
- 
- # DIAGRAMMI UML
- 
- 
+  
  # PACKAGE E CLASSI
  PACKAGE | CLASSI |
  --------|--------|
